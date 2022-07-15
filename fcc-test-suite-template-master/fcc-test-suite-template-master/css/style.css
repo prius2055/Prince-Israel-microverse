@@ -1,0 +1,22 @@
+body{
+	position: relative;
+}
+#navbar{
+	position: fixed;
+	left:0;
+	top: 0;
+	width:300; 
+}
+@media  only screen and (max-width: 560px){
+	#navbar{
+		position: fixed;
+		top: 0;
+		right: 0;
+	}
+}
+@media only screen and (max-width: 400px) {
+  #main-doc {
+  	background-color: blue;
+    margin-left: -10px;
+  }
+
